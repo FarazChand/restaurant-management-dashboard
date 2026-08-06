@@ -17,3 +17,37 @@ gh repo create restaurant-management-dashboard --public --source=. --remote=orig
 ```
 
 ## Creating the main application
+
+```
+// in root of repo
+npx create-next-app@latest restaurant-management-dashboard
+```
+
+- creates our actual application, where our next js app folder will live, and where our website, login and dashboard routes will be located
+-
+
+```
+Would you like to use TypeScript?        Yes
+Would you like to use ESLint?            Yes
+Would you like to use Tailwind CSS?      Yes
+Would you like your code inside src/?    No
+Would you like to use App Router?        Yes
+Would you like to use Turbopack?         Yes
+Would you like to customize import alias? No
+```
+
+### Start Dev Server:
+
+```
+cd /restaurant-management-dashboard
+npm run dev
+```
+
+- should see default Next.js page
+
+## Setting up Application Structure
+
+### Replace default app structure
+
+- in /app/ , delete default page.tsx
+- then create
