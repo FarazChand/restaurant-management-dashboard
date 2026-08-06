@@ -50,4 +50,12 @@ npm run dev
 ### Replace default app structure
 
 - in /app/ , delete default page.tsx
-- then create
+- then create:
+  - /app/(marketing) (this is a route group)
+  - /app/dashboard
+  - /app/page.tsx
+  - /app/layout.tsx
+  - /app/global.css
+  - respective layout and page .tsx for each child route except for /app/login/, which only needs a page.tsx
+
+###
