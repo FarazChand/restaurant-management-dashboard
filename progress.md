@@ -49,8 +49,8 @@ npm run dev
 
 ### Replace default app structure
 
-- in /app/ , delete default page.tsx
-- then create:
+- in /app/ , deleted default page.tsx
+- then created:
   - /app/(marketing) (this is a route group)
   - /app/dashboard
   - /app/page.tsx
@@ -58,4 +58,16 @@ npm run dev
   - /app/global.css
   - respective layout and page .tsx for each child route except for /app/login/, which only needs a page.tsx
 
-###
+- then we are just going to add some basic jsx to each page and layout
+- after that we should test each route to ensure they run
+
+### Building Public Website Shell
+
+- we replace our skeletons with proper restaurant structure
+- the goal is to establish the reusable pieces before building the actual homepage
+
+### Creating Components folder
+
+- created components folder in the root of the project
+- created a marketing subdirectory in the components folder
+  - created the Navbar and Footer .tsx files
