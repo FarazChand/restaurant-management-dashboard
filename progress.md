@@ -71,3 +71,5 @@ npm run dev
 - created components folder in the root of the project
 - created a marketing subdirectory in the components folder
   - created the Navbar and Footer .tsx files
+
+Detailed navbar styles
