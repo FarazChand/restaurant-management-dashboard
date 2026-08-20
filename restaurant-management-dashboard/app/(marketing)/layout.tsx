@@ -11,12 +11,15 @@ type MarketingLayoutProps = {
 export default function MarketingLayout({ children }: MarketingLayoutProps) {
   return (
     <>
-      {/* <Navbar></Navbar> */}
-      <Navbar2></Navbar2>
+    <div className="flex min-h-screen flex-col">
+      <Navbar></Navbar>
 
-      <main>{children}</main>
+      <main className="flex-1">{children}</main>
 
       <Footer></Footer>
+
+    </div>
+
     </>
   );
 }
