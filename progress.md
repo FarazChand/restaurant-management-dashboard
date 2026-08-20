@@ -73,5 +73,3 @@ npm run dev
   - created the Navbar and Footer .tsx files
 
 Detailed navbar styles
-
-# THIS IS A TEST

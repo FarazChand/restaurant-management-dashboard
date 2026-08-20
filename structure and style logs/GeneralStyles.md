@@ -5,7 +5,7 @@ One of the style patterns I've seen is to take the semantic tag e.g. Footer, Hea
 - background color brand (bg-black)
 - border if needed e.g. bottom (border-b)
 
-Then there is an inner div inside of that wraps the reset of the contet an sets:
+Then there is an inner div inside of that wraps the rest of the contet and sets:
 
 - centering the container horizontally (mx-auto)
 - max-width (max-w-7xl)
