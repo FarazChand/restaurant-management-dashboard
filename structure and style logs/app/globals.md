@@ -75,3 +75,18 @@ Note: the advantage of having these styles defined here is that it allows us to 
   - then anywhere these utility classes are used reflect the changes to the color scheme
 
 This means that you don't actually have to do anything in the jsx in order to change to dark mode as long as you have been using the utility classes for the relevant styling
+
+## body styles
+
+```
+body {
+background: var(--background);
+color: var(--foreground);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+```
+
+- simply setting our background color, text color and font style using our css custom properties that we established earlier
+- the font custom css property was created and applied to our root <html> in layout.tsx, making it available to the rest of the document
+- the color custom property was created in our :root rule
